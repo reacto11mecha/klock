@@ -1,0 +1,19 @@
+.container {
+  width: 65vw;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-size: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Cousine";
+}
+
+.gap {
+  margin: 30px;
+  padding-bottom: 16px;
+}
