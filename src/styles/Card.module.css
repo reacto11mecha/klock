@@ -21,3 +21,58 @@
   margin: 30px;
   padding-bottom: 16px;
 }
+
+@media (min-width: 814px) and (max-width: 1111px) {
+  .container {
+    width: 80vw;
+  }
+
+  .header {
+    font-size: 110px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 813px) {
+  .container {
+    width: 85vw;
+  }
+
+  .header {
+    font-size: 90px;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 660px) {
+  .container {
+    width: 95vw;
+  }
+
+  .header {
+    font-size: 70px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 499px) {
+  .container {
+    height: 85vh;
+  }
+
+  .header {
+    font-size: 50px;
+    align-items: center;
+  }
+
+  .gap {
+    display: none;
+  }
+
+  .hour {
+    width: 100%;
+    padding-bottom: 4.5em;
+  }
+
+  .second {
+    width: 100%;
+    padding-top: 4.5em;
+  }
+}
