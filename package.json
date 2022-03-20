@@ -1,7 +1,7 @@
 {
-  "name": "vite-template-solid",
+  "name": "klock",
   "version": "0.0.0",
-  "description": "",
+  "description": "Digital clock based on Ouro Kronii color palette",
   "scripts": {
     "start": "vite",
     "dev": "vite",
